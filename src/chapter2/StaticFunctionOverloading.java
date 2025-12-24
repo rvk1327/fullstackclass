@@ -6,6 +6,9 @@ public class StaticFunctionOverloading {
 		
 		Laptop.show("Lenova Thinkpad");
 		Laptop.show(75000.00);
+		
+		Laptop lap = new Laptop();
+		Object obj = new Object();
 	}
 }
 
